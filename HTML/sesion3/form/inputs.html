@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tipos de Inputs</title>
+  </head>
+  <body>
+    <form>
+      <!-- label(for) = input(id)  -->
+      <label for="nombre">Nombre:</label>
+      <input
+        id="nombre"
+        type="text"
+        placeholder="Ej. JOSE FERNANDO (todo mayuscula)"
+      />
+
+      <br /><br />
+
+      <label for="edad">Edad:</label>
+      <input id="edad" type="number" placeholder="Ej. 30" />
+
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input id="email" type="email" placeholder="Ej. correo@correo.com" />
+
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="Ej. *******" />
+
+      <br /><br />
+
+      <label for="fecha">Fecha:</label>
+      <input id="fecha" type="date" />
+
+      <br /><br />
+
+      <label for="file">Archivo:</label>
+      <input id="file" type="file" accept="application/pdf" />
+
+      <br /><br />
+
+      <legend>Sexo:</legend>
+      <label for="masculino">Masculino:</label>
+      <input id="masculino" type="radio" name="sexo" />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="femenino">Femenino:</label>
+      <input id="femenino" type="radio" name="sexo" />
+
+      <br /><br />
+
+      <legend>Pasatiempos:</legend>
+
+      <label for="leer">Leer:</label>
+      <input id="leer" type="checkbox" />
+
+      <label for="deporte">Deporte:</label>
+      <input id="deporte" type="checkbox" />
+
+      <br /><br />
+
+      <label for="telefono">Telefono:</label>
+      <input id="telefono" type="tel" />
+
+      <br /><br />
+
+      <label for="tiempo">Hora:</label>
+      <input id="tiempo" type="time" />
+
+      <br /><br />
+
+      <label for="descripcion">Descripcion:</label>
+      <textarea id="descripcion" rows="10"></textarea>
+
+      <br /><br />
+
+      <label for="paises">Paises:</label>
+      <select>
+        <option disabled selected>--Seleccione--</option>
+        <option value="peru">Peru</option>
+        <option value="colombia">Colombia</option>
+        <option value="mexico">Mexico</option>
+      </select>
+
+      <br /><br />
+
+      <input type="submit" value="Enviar Datos" />
+      <button type="submit">Esto es un boton</button>
+    </form>
+  </body>
+</html>
