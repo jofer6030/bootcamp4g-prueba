@@ -1,0 +1,93 @@
+* {
+  color: blue;
+}
+
+h1 span {
+  color: red;
+}
+
+/* 
+              ALGUNOS SELECTORES AVANZADOS
+   ">" ---> Selecciona los elemntos hijos directos de un elemento padre,
+   "+" ---> Selecciona al hermano inmediato del elemento seleccionado,  
+   "," ---> Indica que se seleccionaron dos o mas elementos,
+*/
+
+/* div h1 span {
+  color: green;
+} */
+
+/* .contenedor .titulo .resaltar {
+  color: yellow;
+} */
+
+.contenedor h1 .resaltar {
+  color: lightblue;
+}
+
+.contenedor.padre {
+  background-color: coral;
+}
+
+.elemento_padre {
+  background-color: lightgreen;
+}
+
+/* div > p {
+  color: lightblue;
+} */
+
+.elemento_padre > p {
+  color: black;
+}
+
+.elemento_padre > .elemento_hijo-parrafo {
+  color: red;
+}
+
+.parrafos {
+  background-color: yellowgreen;
+}
+
+.parrafos > p {
+  color: black;
+}
+
+.parrafos p + p {
+  color: black;
+}
+
+section,
+article {
+  background-color: gray;
+}
+
+/* .class1,
+.class2 {
+  background-color: lightblue;
+}
+
+h1,
+.clase3{
+  color: lightgreen;
+} */
+
+/* 
+  .subtitulo {
+    color: red;
+  }
+
+  .subtitulo {
+    font-size: 30px;
+  }
+
+  .subtitulo {
+    font-weight: 400;
+  } 
+*/
+
+.subtitulo {
+  color: red;
+  font-size: 30px;
+  font-weight: 400;
+}

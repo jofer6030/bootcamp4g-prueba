@@ -1,0 +1,65 @@
+/* 
+  SELECTOR ---> elemento HTML que tendra los estilos
+
+    1. etiquetas HTM -- h1,h2....,h6,header, p, a, span, div, li, ul, ol, table, tr, td, th, img, input, textarea, button, select, form, footer, nav, aside, section, header, main, article, body, html
+
+    2. clases --  "." "nombre_de_la_clase"  .titulo
+
+    3. id -- "#" "nombre_de_la_id"  #titulo
+
+
+    PROPIEDAD : VALOR; ---> ambas declaradas en lowercase y separadas mediante ":" y terminando con un punto y coma ";"
+*/
+
+/* 
+  Selectores de etiquetas
+
+    h1 {
+      color: red;
+    }
+
+*/
+
+/* 
+  Selectores de CLASE
+
+    .titulo {
+      color: red;
+    }
+
+    .parrafo {
+      color: blue;
+    }
+
+    .subtitulo {
+      color: green;
+    } 
+*/
+
+/* Selectores de ID 
+
+    #titulo_id {
+      color: blue;
+    }
+
+    #parrafo_id {
+      color: red;
+    }
+
+    #subtitulo_id {
+      color: green;
+    } 
+    
+*/
+
+h1 {
+  color: red;
+}
+
+.parrafo {
+  color: blue;
+}
+
+#subtitulo_id {
+  color: green;
+}
