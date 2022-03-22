@@ -1,0 +1,61 @@
+/* body {
+  background-color: lightblue;
+  color: purple;
+}
+
+.container {
+  color: green;
+  font-size: 30px;
+}
+
+.titulo {
+  color: blue;
+  font-weight: 700;
+}
+
+.titulo {
+  color: yellow;
+  font-size: 50px;
+}
+
+.titulo {
+  color: red;
+  /* font-size: 50px; */
+/* font-weight: 700; */
+/* } */
+
+/* .titulo span {
+  color: green;
+  font-size: 20px;
+} */
+
+/* Especificidad */
+
+* {
+  color: blue;
+}
+
+.titulo {
+  color: green;
+}
+
+h2 {
+  color: red !important;
+}
+
+#container {
+  background-color: red;
+}
+
+.container {
+  background-color: gray !important;
+}
+
+/* 
+              C D U
+  *           0 0 0  0
+  elemento    0 0 1  1 
+  clase       0 1 0  10
+  id          1 0 0  100
+  
+*/
