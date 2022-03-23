@@ -1,0 +1,49 @@
+/* plabras claves -- nomrbes de colores en ingles */
+body {
+  background-color: lightblue;
+  background-color: white;
+  background-color: green;
+  background-color: blue;
+}
+
+/* RGB decimal  R --- red, G--- green, B --- blue*/
+body {
+  background-color: rgb(-100, 0, 0); /* rgb(0,0,0)*/
+  background-color: rgb(300, 255, 255); /* rgb(255,255,255)*/
+  background-color: rgb(255, 0, 0); /*rojo*/
+  background-color: rgb(0, 0, 255); /*azul*/
+  background-color: rgb(0, 255, 0); /*green*/
+  background-color: rgb(178, 200, 255);
+  background-color: rgb(178, 200, 255);
+}
+/* RGB porcentual */
+body {
+  background-color: rgb(100%, 100%, 100%);
+  background-color: rgb(0%, 0%, 0%);
+  background-color: rgb(100%, 0, 0); /*rojo*/
+}
+
+/* RGB hexadecimal */
+/* R --- ## G --- ##  B --- ##  */
+body {
+  background-color: #ffffff; /*rojo*/
+  background-color: #0000ff; /*azul*/
+  background-color: #ff0000; /*rojo*/
+  background-color: #00ff00; /*verde*/
+
+  background-color: #0f0; /*verde*/
+  background-color: #00f; /*azul*/
+  background-color: #fff; /*blanco*/
+  background-color: #f00; /*blanco*/
+
+  background-color: #11f5a6;
+  background-color: #156;
+}
+
+body {
+  color: #0000ff;
+  background-color: #ffffff;
+  border-color: #0000ff;
+  outline-color: #0f0;
+  box-shadow: #0f0 0px 0px 0px;
+}
