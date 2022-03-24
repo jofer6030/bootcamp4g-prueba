@@ -1,0 +1,71 @@
+/* 
+
+  position
+    top
+    left
+    bottom
+    right
+  
+*/
+
+div {
+  height: 120px;
+  background-color: yellow;
+}
+
+h1 {
+  position: static;
+}
+
+h1 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  /* right: 20px;
+  bottom: 20px; */
+}
+
+.container_fixed {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+.absolute_parrafo {
+  position: absolute;
+  color: red;
+  font-weight: 700;
+  top: 0;
+  top: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.relative {
+  position: relative;
+  margin: 3rem auto;
+  width: 300px;
+  height: 300px;
+}
+
+.absolute {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); Posicionar la medio de todo */
+}
+
+header {
+  background-color: gray;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
