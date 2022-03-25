@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.div_uno {
+  max-width: 1400px;
+  width: 95%;
+  margin: 0 auto;
+  /* max-height: 400px; */
+  /* min-height: 400px; */
+  height: 400px;
+  background-color: yellow;
+  border: 5px solid black;
+  overflow-y: scroll;
+}
