@@ -1,0 +1,24 @@
+
+
+.titulo {
+  color: green;
+  font-size: 1rem;
+  transition: all 0.5s ease;
+}
+
+.active {
+  color:red;
+  font-size: 2rem;
+  transition: all 0.5s ease;
+}
+
+.cuadro {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  transition: all 1s ease;
+  border-radius: 10px;
+}
