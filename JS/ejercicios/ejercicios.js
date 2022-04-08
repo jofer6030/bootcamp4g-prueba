@@ -44,6 +44,47 @@ function getAge(inputString){
 }
 console.log(getAge("4 years old"))
 
+function maps(x){
+  return x.map(e => e*2)
+}
+
+console.log(maps([20,100,200]))
+
+function oddCount(n){
+  let c=0
+
+  if(typeof n === "number" && n > 0) {
+    for (let i = 0; i < n; i++) {
+       if(i % 2 !== 0) {
+          c++
+       }
+    }
+  }
+
+  return c
+}
+
+function oddCount2(n){
+  return Math.floor(n/2)
+}
+
+console.log(oddCount(15))
+console.log(oddCount(15023))
+console.log(oddCount2(5))
+console.log(oddCount(-1))
+
+
+const countSheep = function (num){
+  const shepp = "sheep..."
+  let cadena = ""
+  for(let i = 1; i <= num; i++){
+    cadena += `${i} ${shepp}`
+  }
+  return cadena
+}
+
+console.log(countSheep(6))
+
 
 
 
